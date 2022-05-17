@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Navbar.css';
 
-function NavTabs({ currentPage, handlePageChange }) {
+
+function NavBar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -48,4 +48,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default NavBar;
